@@ -4,7 +4,7 @@ package entity;
  * Created by DNAPC on 18.11.2017.
  */
 public interface List {
-    public void fill(Integer[] values);
+    public void fill(Object[] values);
 
     public int size();
 

@@ -32,11 +32,11 @@ public class Controller extends HttpServlet {
         ServiceFactory serviceFactory = ServiceFactory.getInstance();
         Service service = serviceFactory.getService();
         List list = service.getList(req.getParameter("method"));
-        String[] values =(req.getParameter("values")).split(" ");
+        String[] values =(req.getParameter("values")).trim().split(" +");
+
         list.fill(service.toIntegerArray(values));
 
         BinaryTree binaryTree = service.createBinaryTree(list);
-
         setByPassTreeAttributes(binaryTree,req,resp);
         req.getRequestDispatcher("tree.jsp").forward(req,resp);
     }

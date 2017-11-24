@@ -1,8 +1,11 @@
 package entity;
 
+import service.impl.ServiceImpl;
+
 import java.util.Arrays;
 import java.util.ConcurrentModificationException;
 import java.util.NoSuchElementException;
+
 
 /**
  * Created by DNAPC on 18.11.2017.
@@ -15,10 +18,17 @@ public class ArrayList implements List {
         values = new Object[size];
     }
 
+    public ArrayList(Object ... args){
+        this();
+        fill(args);
+    }
+
     @Override
-    public void fill(Integer[] values) {
-        for(int i=0;i<values.length;i++){
-            add(values[i]);
+    public void fill(Object[] values) {
+        if (values != null) {
+            for (Object value:values) {
+                add(value);
+            }
         }
     }
 

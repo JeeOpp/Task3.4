@@ -31,9 +31,12 @@ public class ServiceImpl implements Service {
 
     @Override
     public Integer[] toIntegerArray(String[] values) {
-        Integer[] integers = new Integer[values.length];
-        for (int i=0;i<values.length;i++){
-            integers[i] = Integer.parseInt(values[i]);
+        Integer[] integers = null;
+        if(!values[0].equals("")) {
+            integers = new Integer[values.length];
+            for (int i = 0; i < values.length; i++) {
+                integers[i] = Integer.parseInt(values[i]);
+            }
         }
         return integers;
     }

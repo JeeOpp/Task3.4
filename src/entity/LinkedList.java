@@ -13,10 +13,16 @@ public class LinkedList implements List {
     public LinkedList(){
 
     }
+    public LinkedList(Object ... args){
+        fill(args);
+    }
+
     @Override
-    public void fill(Integer[] values) {
-        for(int i=0;i<values.length;i++){
-            add(values[i]);
+    public void fill(Object[] values) {
+        if (values != null) {
+            for (Object value:values) {
+                add(value);
+            }
         }
     }
 
