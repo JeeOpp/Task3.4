@@ -1,10 +1,11 @@
-<%@ page import="entity.BinaryTree" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: DNAPC
   Date: 21.11.2017
   Time: 19:15
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page import="entity.BinaryTree" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>

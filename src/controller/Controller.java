@@ -2,7 +2,6 @@ package controller;
 
 import entity.BinaryTree;
 import entity.List;
-import service.BinaryTreeBuilder;
 import service.Service;
 import service.ServiceFactory;
 import javax.servlet.ServletException;
@@ -38,7 +37,8 @@ public class Controller extends HttpServlet {
 
         BinaryTree binaryTree = service.createBinaryTree(list);
         setByPassTreeAttributes(binaryTree,req,resp);
-        req.getRequestDispatcher("tree.jsp").forward(req,resp);
+
+        req.getRequestDispatcher("result.jsp").forward(req,resp);
     }
 
     private void setByPassTreeAttributes(BinaryTree binaryTree, HttpServletRequest req, HttpServletResponse resp){

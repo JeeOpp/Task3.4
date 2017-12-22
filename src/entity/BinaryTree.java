@@ -49,6 +49,36 @@ public class BinaryTree {
             addNode(iterator.next());
         }
     }
+    public Node deleteNode(Node root, int value) {
+        if (root == null) return null;
+        if (value < (int) root.value) {
+            root.left = deleteNode(root.left, value);
+        } else {
+            if (value > (int) root.value) {
+                root.right = deleteNode(root.right, value);
+            } else {
+                if (root.left == null) {
+                    return root.right;
+                } else {
+                    if (root.right == null) {
+                        return root.left;
+                    }
+                }
+            }
+            root.value = getMinValue(root.right);
+            root.right = deleteNode(root.right,(int) root.value);
+        }
+        return root;
+    }
+
+    private Object getMinValue(Node root) {
+        Object value = root.value;
+        while (root.left!=null) {
+            value = root.value;
+            root = root.left;
+        }
+        return value;
+    }
 
     public void inOrderTraverseTree(StringBuilder line ,Node focusNode) {
         if (focusNode != null) {
