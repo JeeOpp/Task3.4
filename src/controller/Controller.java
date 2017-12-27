@@ -35,7 +35,7 @@ public class Controller extends HttpServlet {
 
         list.fill(service.toIntegerArray(values));
 
-        BinaryTree binaryTree = service.createBinaryTree(list);
+        BinaryTree binaryTree = new BinaryTree(list);
         setByPassTreeAttributes(binaryTree,req,resp);
 
         req.getRequestDispatcher("result.jsp").forward(req,resp);

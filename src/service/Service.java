@@ -9,5 +9,4 @@ import entity.List;
 public interface Service {
     public List getList(String method);
     public Integer[] toIntegerArray(String[] values);
-    public BinaryTree createBinaryTree(List list);
 }

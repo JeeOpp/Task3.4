@@ -4,7 +4,6 @@ import entity.ArrayList;
 import entity.BinaryTree;
 import entity.LinkedList;
 import entity.List;
-import service.BinaryTreeBuilder;
 import service.Service;
 
 /**
@@ -12,10 +11,7 @@ import service.Service;
  */
 public class ServiceImpl implements Service {
 
-    private BinaryTreeBuilder binaryTreeBuilder;
-
     public ServiceImpl(){
-        binaryTreeBuilder = new BinaryTreeBuilder();
     }
 
     @Override
@@ -39,10 +35,5 @@ public class ServiceImpl implements Service {
             }
         }
         return integers;
-    }
-
-    @Override
-    public BinaryTree createBinaryTree(List list) {
-        return binaryTreeBuilder.buildBinaryTree(list);
     }
 }
