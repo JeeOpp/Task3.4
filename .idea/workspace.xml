@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f1193d0-b1fb-4dcb-a085-c62386feb622" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/service/BinaryTreeBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task3.4/service/BinaryTreeBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/service/BinaryTreeBuilder.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/controller/Controller.class" afterPath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/entity/BinaryTree$Node.class" afterPath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/entity/BinaryTree$Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/entity/BinaryTree.class" afterPath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/entity/BinaryTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/service/Service.class" afterPath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/service/Service.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/service/impl/ServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/Task3_4_war_exploded/WEB-INF/classes/service/impl/ServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task3.4/controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/Task3.4/controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task3.4/entity/BinaryTree$Node.class" afterPath="$PROJECT_DIR$/out/production/Task3.4/entity/BinaryTree$Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task3.4/entity/BinaryTree.class" afterPath="$PROJECT_DIR$/out/production/Task3.4/entity/BinaryTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task3.4/service/Service.class" afterPath="$PROJECT_DIR$/out/production/Task3.4/service/Service.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task3.4/service/impl/ServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/Task3.4/service/impl/ServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/entity/DeleteRootTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/Controller.java" afterPath="$PROJECT_DIR$/src/controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/Service.java" afterPath="$PROJECT_DIR$/src/service/Service.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/impl/ServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/impl/ServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/BinaryTree.java" afterPath="$PROJECT_DIR$/src/entity/BinaryTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +23,8 @@
       <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entity/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+            <state relative-caret-position="55">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="method#indexOf#0;class#ArrayList#0" expanded="false" />
                 <element signature="method#get#0;class#ArrayList#0" expanded="false" />
@@ -65,7 +51,7 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entity/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="1342">
               <caret line="148" column="30" lean-forward="false" selection-start-line="148" selection-start-column="30" selection-end-line="148" selection-end-column="30" />
               <folding>
                 <element signature="method#indexOf#0;class#LinkedList#0" expanded="false" />
@@ -99,20 +85,34 @@
       <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entity/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="90" column="54" lean-forward="false" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
+            <state relative-caret-position="165">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
                 <element signature="method#addNode#0;class#BinaryTree#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeleteRootTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/entity/DeleteRootTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="44" column="49" lean-forward="true" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+            <state relative-caret-position="594">
+              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,18 +123,8 @@
       <file leaf-file-name="ServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/impl/ServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="378">
+              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -143,19 +133,11 @@
       <file leaf-file-name="ArrayListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/entity/ArrayListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/ServiceFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,10 +190,11 @@
         <option value="$PROJECT_DIR$/tests/entity/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/tests/Test.java" />
         <option value="$PROJECT_DIR$/web/tree.jsp" />
-        <option value="$PROJECT_DIR$/src/entity/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/service/impl/ServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/service/Service.java" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/entity/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/tests/entity/DeleteRootTest.java" />
       </list>
     </option>
   </component>
@@ -249,6 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -386,8 +371,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -416,33 +399,7 @@
       <recent name="D:\Documents\Java\WEB\Task3.4\Task3.4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
-    <configuration default="false" name="ArrayListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Task3.4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="entity" />
-      <option name="MAIN_CLASS_NAME" value="entity.ArrayListTest" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DeleteRootTest">
     <configuration default="false" name="ArrayListTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -528,6 +485,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeleteRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Task3.4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="entity" />
+      <option name="MAIN_CLASS_NAME" value="entity.DeleteRootTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1008,19 +991,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayListTest.add" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayListTest.remove" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayListTest (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LinkedListTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.Test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayListTest.remove" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayListTest (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LinkedListTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Test" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.DeleteRootTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayListTest (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedListTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayListTest.remove" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayListTest.add" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DeleteRootTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayListTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LinkedListTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayListTest.remove" />
       </list>
     </recent_temporary>
   </component>
@@ -1059,7 +1042,9 @@
       <workItem from="1513974422372" duration="2344000" />
       <workItem from="1514038634950" duration="32000" />
       <workItem from="1514044104672" duration="614000" />
-      <workItem from="1514381117717" duration="152000" />
+      <workItem from="1514381117717" duration="179000" />
+      <workItem from="1514996238709" duration="658000" />
+      <workItem from="1515509853960" duration="1294000" />
     </task>
     <task id="LOCAL-00001" summary="without tests">
       <created>1511295665706</created>
@@ -1082,30 +1067,37 @@
       <option name="project" value="LOCAL" />
       <updated>1513976736604</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete">
+      <created>1514381280500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1514381280500</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayListTest_(1) - 2017.11.24 at 22h 31m 21s.xml">
-      <configuration name="ArrayListTest (1)" configurationId="JUnit" />
+    <history-entry file="DeleteRootTest - 2018.01.09 at 18h 06m 54s.xml">
+      <configuration name="DeleteRootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListTest_(1) - 2017.11.24 at 22h 39m 48s.xml">
-      <configuration name="ArrayListTest (1)" configurationId="JUnit" />
+    <history-entry file="DeleteRootTest - 2018.01.09 at 18h 07m 41s.xml">
+      <configuration name="DeleteRootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListTest_add - 2017.11.24 at 22h 30m 31s.xml">
-      <configuration name="ArrayListTest.add" configurationId="JUnit" />
+    <history-entry file="DeleteRootTest - 2018.01.09 at 18h 09m 25s.xml">
+      <configuration name="DeleteRootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListTest_get - 2017.11.24 at 22h 25m 42s.xml">
-      <configuration name="ArrayListTest.get" configurationId="JUnit" />
+    <history-entry file="DeleteRootTest - 2018.01.09 at 18h 15m 19s.xml">
+      <configuration name="DeleteRootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListTest_get - 2017.11.24 at 22h 29m 09s.xml">
-      <configuration name="ArrayListTest.get" configurationId="JUnit" />
+    <history-entry file="DeleteRootTest - 2018.01.09 at 18h 17m 10s.xml">
+      <configuration name="DeleteRootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListTest_remove - 2017.11.24 at 22h 31m 15s.xml">
-      <configuration name="ArrayListTest.remove" configurationId="JUnit" />
+    <history-entry file="DeleteRootTest - 2018.01.09 at 18h 18m 41s.xml">
+      <configuration name="DeleteRootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2017.11.24 at 22h 33m 22s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
+    <history-entry file="DeleteRootTest - 2018.01.09 at 18h 19m 11s.xml">
+      <configuration name="DeleteRootTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Test - 2017.11.24 at 22h 39m 24s.xml">
       <configuration name="Test" configurationId="JUnit" />
@@ -1118,7 +1110,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52315000" />
+    <option name="totallyTimeSpent" value="54294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1143,10 +1135,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19705549" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3657984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22103004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2274678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1199,7 +1191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="without tests" />
     <MESSAGE value="with tests&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="with tests&#10;" />
+    <MESSAGE value="complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1217,13 +1210,19 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/entity/ArrayList.java</url>
-          <line>71</line>
+          <url>file://$PROJECT_DIR$/src/entity/BinaryTree.java</url>
+          <line>52</line>
           <properties />
-          <option name="timeStamp" value="26" />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/entity/DeleteRootTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1232,16 +1231,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1256,13 +1245,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/BinaryTreeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/BinaryTreeBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/entity/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1337,13 +1320,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/BinaryTreeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/BinaryTreeBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/entity/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1431,9 +1408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <marker date="1511089518592" expanded="true" signature="90:581" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1509,13 +1483,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ArrayListTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1548,6 +1515,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1572,14 +1540,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/entity/ArrayListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/service/BinaryTreeBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1592,43 +1560,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-          <folding>
-            <element signature="method#indexOf#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#get#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#set#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#add#1;class#ArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#ArrayList#0" expanded="false" />
-            <element signature="class#Iterator#0;class#ArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#Iterator#0;class#ArrayList#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="90" column="54" lean-forward="false" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
-          <folding>
-            <element signature="method#addNode#0;class#BinaryTree#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
+        <state relative-caret-position="1342">
           <caret line="148" column="30" lean-forward="false" selection-start-line="148" selection-start-column="30" selection-end-line="148" selection-end-column="30" />
           <folding>
             <element signature="method#indexOf#0;class#LinkedList#0" expanded="false" />
@@ -1648,34 +1582,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/BinaryTreeBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/entity/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/impl/ServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="88">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="44" column="49" lean-forward="true" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        <state relative-caret-position="594">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/impl/ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/entity/ArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="method#indexOf#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#get#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#set#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#add#1;class#ArrayList#0" expanded="false" />
+            <element signature="method#remove#0;class#ArrayList#0" expanded="false" />
+            <element signature="class#Iterator#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#remove#0;class#Iterator#0;class#ArrayList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="method#addNode#0;class#BinaryTree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/entity/DeleteRootTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -74,8 +74,8 @@ public class BinaryTree {
     private Object getMinValue(Node root) {
         Object value = root.value;
         while (root.left!=null) {
-            value = root.value;
             root = root.left;
+            value = root.value;
         }
         return value;
     }
